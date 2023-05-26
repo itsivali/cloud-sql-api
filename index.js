@@ -2,7 +2,7 @@ const express = require('express');
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
 
-// Create MySQL connection
+
 const connection = mysql.createConnection({
     host: '34.125.210.250',
     user: 'root',
